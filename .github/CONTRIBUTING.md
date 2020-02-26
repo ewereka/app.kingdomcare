@@ -31,6 +31,15 @@ This section guides you through submitting an enhancement suggestion for Kingdom
 
 When submitting your request, be sure to include as much information about how your suggestion adds or enhances the current application for the community. Feel free to add any suggestions about how you would implement changes to the application, including images of design or layout concepts.
 
+### Addressing an Open Issue / Feature Requests
+
+If you're ready to take a crack at one of the open issues, follow these steps:
+
+- Fork the repository to your personal GitHub account.
+- Create a branch off of the relevant branch (most likely master). Make sure to name the branch using the Gitflow naming convention. No need to use the git-flow CLI, as it doesn't work well with Fork/PR workflow.
+- Keep your changes to a minimum, we may not accept larger commits in to the main repository.
+- When you're all done, create a Pull Request (see below for more info).
+
 ### Creating Pull Requests
 
 When creating a new Pull Request, be sure to follow the template and guidelines provided. Below is some details about each section outlined in the template. Remember, when adding code, less is more. We may be hesitant to merge large PRs.

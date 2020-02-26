@@ -23,9 +23,11 @@ class VerificationController extends Controller
     /**
      * Where to redirect users after verification.
      *
-     * @var string
+     * @return \Illuminate\Http\Response
      */
-    protected $redirectTo = '/home';
+    protected function redirectTo() {
+        return redirect()->route('dashboard');
+    }
 
     /**
      * Create a new controller instance.

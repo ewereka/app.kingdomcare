@@ -23,9 +23,11 @@ class ConfirmPasswordController extends Controller
     /**
      * Where to redirect users when the intended url fails.
      *
-     * @var string
+     * @return \Illuminate\Http\Response
      */
-    protected $redirectTo = '/home';
+    protected function redirectTo() {
+        return redirect()->route('dashboard');
+    }
 
     /**
      * Create a new controller instance.

@@ -1,0 +1,17 @@
+#logo {
+    #castle {
+        fill:#BCB0C4;
+        enable-background:new;
+    }
+    #words {
+        fill:#1F1844;
+        enable-background:new;
+    }
+}
+
+body.full-screen #logo {
+    #castle, #words {
+        fill:#FFFFFF;
+    }
+
+}
